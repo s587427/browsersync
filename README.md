@@ -6,7 +6,7 @@
 
 `npm install -g browser-sync`
 
-## General configuration
+## Generate Configuration File
 
 `browser-sync init`
 
@@ -19,6 +19,13 @@
 `browser-sync reload              Send a reload event over HTTP protocol`
 
 `browser-sync recipe [name]       Generate the files for a recipe`
+
+## 假設使用(Proxy For PHP)
+
+> Build this project on a small server using built-in php commands
+
+> `php -S localhost:1234`
+
 
 
 ## Documentation
